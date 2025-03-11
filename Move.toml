@@ -1,0 +1,21 @@
+[package]
+name = "smr_sbt"
+version = "1.0.0"
+authors = [gunaseelan25]
+
+[addresses]
+srm_test = "0xeb9020fb9f9d9deea5868f5e8c2c6318b1d33d31d0826b3491e25289ade35575"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.AptosTokenObjects]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-token-objects'
+
+[dev-dependencies]
