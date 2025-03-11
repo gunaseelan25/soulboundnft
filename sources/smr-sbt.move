@@ -16,7 +16,6 @@ module srm_test::srm_test_sbt {
     const ENOT_AUTHORIZED: u64 = 1;
     const ECOLLECTION_NOT_INITIALIZED: u64 = 2;
     const EMAX_SUPPLY_REACHED: u64 = 3;
-    const EZERO_AMOUNT: u64 = 4;
     const EALREADY_INITIALIZED: u64 = 5;
 
     /// Collection related constants
